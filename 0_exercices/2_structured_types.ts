@@ -1,7 +1,3 @@
-/** TYPE **/
-
-/** INTERFACE **/
-
 /** 
  * EXERCICE : 
  *  Créez un type Pet qui a pour propriété :
@@ -16,4 +12,4 @@
  *  - roles (tableau de rôles: ADMIN, USER, USER_BO)
  * 
  *  Créez une instance de chaque type
- **/
+ */

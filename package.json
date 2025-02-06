@@ -8,10 +8,11 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "tsc": "npx tsc",
-    "tsc:watch": "npx tsc exercices/*.ts --watch --rootDir exercices --outDir dist",
-    "tsc:watch:strict": "npx tsc exercices/*.ts --watch --rootDir exercices --outDir dist --noEmitOnError --strict"
+    "tsc:watch": "npx tsc 0_exercices/*.ts --watch --outDir dist",
+    "tsc:watch:strict": "npx tsc 0_exercices/*.ts --watch  --outDir dist --noEmitOnError --strict"
   },
   "dependencies": {
+    "random": "^5.3.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
